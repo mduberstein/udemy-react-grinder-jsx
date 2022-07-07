@@ -10,7 +10,7 @@ const root = ReactDOM.createRoot(el);
 
 // 4) Create a component
 function App () { 
-  return <input maxLength={5}/>
+  return <input spellcheck={false} />
 }
 
 // 5) Show the componenet on the screen
