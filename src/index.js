@@ -10,11 +10,12 @@ const root = ReactDOM.createRoot(el);
 
 // 4) Create a component
 function App () {
-  // let message = null; // undefined, true, false React shows nothing
-  // let message = [1, 2, 3]; // for an array React would remove , and show 123
-  let message = {};
+  // const date = new Date();
+  // const time = date.toLocaleTimeString();
   
-  return <h1>{message}</h1>
+  // return <h1>{time}</h1> 
+  // ALT: 
+  return <h1>{ new Date().toLocaleTimeString() }</h1>
 }
 
 // 5) Show the componenet on the screen
