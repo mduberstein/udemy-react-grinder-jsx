@@ -10,8 +10,12 @@ const root = ReactDOM.createRoot(el);
 
 // 4) Create a component
 function App () {
-  <h4>This is an element!</h4>
-  return <h1>Hi There!</h1>
+  let message = 'Bye there!'
+  if (Math.random() > 0.5) {
+    message = 'Hello there!'
+  }
+  
+  return <h1>{message}</h1>
 }
 
 // 5) Show the componenet on the screen
