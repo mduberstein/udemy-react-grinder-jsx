@@ -9,20 +9,8 @@ const el = document.getElementById('root');
 const root = ReactDOM.createRoot(el);
 
 // 4) Create a component
-function App () {
-  const message = 'Enter Age';
-  const min = 5; 
-  return (
-    <input 
-        type="number"
-        min={min}                 // variables wrap with curly braces
-        max={10}                  // numbers wrap with curly braces
-        list = {[1, 2 ,3]}        // arrays - wrap with curly braces
-        style = {{ border: '3px solid red',
-                  color: 'green',
-                  width: 100}} // objects wrap with curly braces
-        alt={message}
-    /> );
+function App () { 
+  return <textarea autoFocus={true} />
 }
 
 // 5) Show the componenet on the screen
